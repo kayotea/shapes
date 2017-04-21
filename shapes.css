@@ -1,0 +1,66 @@
+/*stylesheet for shapes.html*/
+
+#square{
+    background: lightgreen;
+    width: 100px;
+    height: 100px;
+}
+#circle{
+    background: lightpink;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#triangle{
+    width: 0px;
+    height: 0px;
+    border-bottom: 100px solid aquamarine;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+}
+#pacman{
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#sector{
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid white;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    margin-left: 50px;
+}
+#container{
+    background: lightblue;
+    width: 300px;
+    height: 392px;
+}
+#davids{
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-bottom: -4px;
+}
+#david1{
+    width: 0px;
+    height: 0px;
+    border-top: 100px solid lightgoldenrodyellow;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: -4px;
+}
+#david2{
+    width: 0px;
+    height: 0px;
+    border-bottom: 100px solid lightgoldenrodyellow;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: -4px;
+}
